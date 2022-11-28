@@ -8,16 +8,14 @@ Los datos utilizados en este proyecto son muy básicos en cuanto que los mismos 
 | ---:| ---: | ---: | ---: | -----: |
 | Dataset 1 | Ubicación local | Enviado a archivo local | [script1.ipynb](scripts/eda/Entrega_Proyecto_Módulo_V_MLDS_II.ipynb) | [Dataset 1 Report](docs/data/SMSSpamCollection.csv)|
 
-
-* Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
-* Dataset2 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
-
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
 | Processed Dataset 1 | [Dataset1](link/to/dataset1/report), [Dataset2](link/to/dataset2/report) | [script1.ipynb](scripts/eda/Entrega_Proyecto_Módulo_V_MLDS_II.ipynb) | [Processed Dataset 1 Report](docs/data/SMSSpamCollection.csv)|
-* Processed Data1 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data1 Report.>
-* Processed Data2 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data2 Report.> 
+
+
+
+-----------------------------------------------------
 
 ## Feature Sets
 
