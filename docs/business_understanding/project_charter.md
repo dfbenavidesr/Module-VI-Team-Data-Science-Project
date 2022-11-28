@@ -2,53 +2,49 @@
 
 ## Business background
 
-* Who is the client, what business domain the client is in.
-* What business problems are we trying to address?
+* El desarrollo realizado se encarga de hacer una clasificación de spam, el cual  termina siendo un importante producto que puede beneficiar a muchas compañias, ya que los correos masivos terminan consumiendo recursos computacionales  de los servidores de los consumidores finales. Asi que **El Cliente Final** Es cualquier compañia que se quiera "protegerse" de los correos masivos en cualquier segmento de la industria, esto debido a que el servicio de correo electrónico es ampliamente utilizado.  
 
 ## Scope
-* What data science solutions are we trying to build?
-* What will we do?
-* How is it going to be consumed by the customer?
+* Por medio de la aplicación de la técnica de fine-tuning a un modelo preentrenado de  ASR (Automatic Speech Recognition)  se lleva a construir un potente clasificador de spam; es decir, se retira el cabezal y se coloca como salida una clasificación binaria (Spam o no); este cabezal debe ser entrenado con una variada muestra de entrenamiento para que aprenda a realizar la clasificación de los mensajes en Spam o no. 
+
+* La forma de entrega al cliente está por ser desarrollada y hace parte de próxima entregas
 
 ## Personnel
-* Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
-	* Client:
-		* Data administrator
-		* Business contact
-	
+
+En el aún incipiente  mercado laboral colombiano el integrante de este proyecto (**Daniel F. Benavides R.**) será llamado *"Científico de Datos"*: 
+
+A raíz del conocimiento acá compartido se sabe que un proyecto de ciencia de datos tiene: 
+
+* Lider del Proyecto
+* Gerente de proyecto
+* Arquitecto de Soluciones
+* Ingeniero de datos 
+* Científico de datos
+
+Todos estos roles deben ser asumidos por el  Integrante del proyecto: **Daniel F. Benavides R.**
+
 ## Metrics
-* What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-* What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
-* How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+* ¿Cuáles son los objetivos cualitativos?
+El objetivo es reducir la cantidad de correos no deseados recibidos 
+* ¿ Cuál es la métrica cuantificable? 
+El objetivo es reducir la proporción  de correos no deseados recibidos
+* Cuantificar qué mejora en los valores de las métricas son útiles para el escenario del cliente. 
+reducir en un 80% la proporción de correos no deseados recibidos
+* ¿Cuál es el valor de referencia (actual) de la métrica? 
+El 70% de los correos recibidos son no deseados. 
+* ¿Cómo mediremos la métrica?
+Se cuentan la cantidad de correos recibidos y de ellos cuales son los deseados y cuales no. A partir de la implementación del modelo se evalúan los dos meses subsiguientes y se comparan con los dos últimos meses evaluados;  En esta comparación se habrá de poder disminuir en un 30% la proporción de correos no deseados. 
 
 ## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
+
+Una vez se entrene el modelo con una muestra suficientemente  grande acerca de los mensajes que son o no deseados y se despliegue el mismo, se hará corte a  los dos meses y se verificará el rendimiento del mismo. 
 
 ## Architecture
-* Data
-  * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
+### Datos
+  * Accederemos a la fuente de datos de los clientes por medio de las respectivas Querys de sus archivos locales, esto para obtener los datos de la etapa de entrenamiento. 
+ Esta información será llevada al drive del cual será consultada a la hora de hacer el respectivo preprocesamiento y procesamiento de la data. Este se hará desde **Google Colaboratory.**
+ 
 
-* What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
-* How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
-  * How will the customer use the model results to make decisions
-  * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
 
 ## Communication
-* How will we keep in touch? Weekly meetings?
-* Who are the contact persons on both sides?
+* El contacto con el cliente se hara de manera semanal hasta el despliegue del modelo; una vez este se haga, se hará hasta el momento de evaluar resultados, a menos que se evidencie alguna circunstancia que amerite reunión urgente con el cliente. 
