@@ -1,12 +1,11 @@
 # Data Dictionary
 
-In this document you must describe the tables, collections or files that you are using in the project. You can describe each database and provide UML diagrams for a better design description.
-
+En el proyecto  que se está trabajando solo se utiliza como insumo la base utilizada para  reentrenar el modelo preentrenado al cual se la ha aplicado técnica de fine-tuning. 
 # Database Name 1
 
-Description of the database.
+Esta base consta de textos etiquetados cada uno como "spam" o "ham". Con estos se reeentrena modelo afinado para realizar clasificación binaria de Spam o no
 
-![UML Diagram](/file/uml/database1)
+![Database](docs/data/SMSSpamCollection.csv)
 
 ## Table 1
 
@@ -14,18 +13,6 @@ Here you must describe the table
 
 | column | type | description |
 | --- | --- | --- |
-| col1 | INT | Example column |
+| col1 | string | texto que lleva cada uno de los mensajes|
+| col2 | string | "spam"o "ham" según la etiqueta que corresponda|
 
-# Database Name 2
-
-Description of the database.
-
-![UML Diagram](/file/uml/database1)
-
-## Table 2
-
-Here you must describe the table
-
-| column | type | description |
-| --- | --- | --- |
-| col1 | INT | Example column |
