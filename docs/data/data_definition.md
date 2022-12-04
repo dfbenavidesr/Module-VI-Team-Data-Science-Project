@@ -1,6 +1,6 @@
 # Data and Feature Definitions
 
-Los datos utilizados en este proyecto son muy básicos en cuanto que los mismos don los utilizados para hacer el reentrenamiento del modelo preentrenado. 
+Los datos utilizados en este proyecto consisten en una muestra de SMS con sus respectivas etiquetas. Estos son los utilizados para hacer el ejercicio de fine-tuning de un  modelo preentrenado para clasificación de sentimientos y así obtener un modelo de clasificación de spam.  
 
 ## Raw Data Sources
 
