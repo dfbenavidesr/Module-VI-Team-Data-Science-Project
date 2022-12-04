@@ -6,7 +6,7 @@ Los datos utilizados en este proyecto son muy básicos en cuanto que los mismos 
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | Ubicación local | Enviado a archivo local | [script1.ipynb](scripts/eda/Entrega_Proyecto_Módulo_V_MLDS_II.ipynb) | [Dataset 1 Report](docs/data/SMSSpamCollection.csv)|
+| Dataset 1 | Ubicación local | Enviado a archivo local | [script1.ipynb](https://github.com/dfbenavidesr/Module-VI-Team-Data-Science-Project/blob/master/scripts/eda/Entrega_Proyecto_M%C3%B3dulo_V_MLDS_II.ipynb) | [Dataset 1 Report](docs/data/SMSSpamCollection.csv)|
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
