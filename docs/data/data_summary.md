@@ -1,8 +1,10 @@
 # Data Report
 
-This document contains the results from the exploratory data analysis.
+La información utilizada en el proceso de afinamiento del modelo está basada en un conjunto de mensajes SMS con los cuales se reentrena la última capa del modelo preentrenado
 
 ## General summary of the data
+
+El conjunto de datos está compuesto por 5572 mensajes SMS y sus correspondientes etiquetas, tal como se muestra en el script donde se realiza el EDA
 
 ## Data quality summary
 
