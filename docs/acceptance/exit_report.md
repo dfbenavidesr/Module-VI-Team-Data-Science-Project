@@ -104,7 +104,7 @@ Aún cuando poseo todas las falencias mencionadas también sé que la manera com
 ##	Links
 <Links to published case studies, etc.; Link to git repository where all code sits\>
 	
-El link donde reposa el modelo que se describe en este documento es: 
+El link donde reposa el modelo que se describe en este documento es: https://github.com/dfbenavidesr/Module-VI-Team-Data-Science-Project
 	
 
 
