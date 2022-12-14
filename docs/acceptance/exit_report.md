@@ -68,6 +68,13 @@ Ahora solo queda por aplicar modelo que reentrenamos con el dataset de **entrena
 <Architecture of the solution, describe clearly whether this was actually implemented or a proposed architecture. Include diagram and relevant details for reproducing similar architecture. Include details of why this architecture was chosen versus other architectures that were considered, if relevant\>
 	
 La arquitectura del modelo está referenciada el mismo proviene del modelo preentrenado [_'distilbert-base-uncased'_](https://huggingface.co/distilbert-base-uncased?text=Paris+is+the+%5BMASK%5D+of+France.)
+	
+	
+	docs/modeling/Accuray.jpg
+	docs/modeling/Accuray.jpg
+	
+	
+![]((https://github.com/dfbenavidesr/Module-VI-Team-Data-Science-Project/blob/fb70f3fc16b5cb36f518b6e9778556b917faa956/docs/modeling/Accuray.jpg))
 
 ##	Benefits
 	
