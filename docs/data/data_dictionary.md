@@ -5,7 +5,7 @@ En el proyecto  que se está trabajando solo se utiliza como insumo la base util
 
 Esta base consta de textos etiquetados cada uno como "spam" o "ham". Con estos se reeentrena modelo afinado para realizar clasificación binaria de Spam o no
 
-![Database](docs/data/SMSSpamCollection.csv)
+![Database](https://github.com/dfbenavidesr/Module-VI-Team-Data-Science-Project/blob/154d2b2efc745513817b808f92d95f209747a1b9/docs/data/SMSSpamCollection.csv)
 
 ## Table 1
 
