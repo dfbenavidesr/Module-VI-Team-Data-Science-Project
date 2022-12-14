@@ -62,44 +62,51 @@ A continuación se importan los módulos de TFDistilBertForSequenceClassificatio
 
 Hemos determinado el conjunto de argumentos que serán utilizados en el reentrenamiento del modelo,estos quedan alojados en  el  objeto *training_args*   y  ahora definiremos el modelo refiriendo el modelo preentrenado que vamos a utilizar, que en este caso es  _"distilbert-base-uncased"_. se creará el **trainer** al cual se le pasarán los argumentos antes definidos   y los dos tensores de entrenamiento y prueba; para luego  entrenar el modelo que hemos definido. Una vez instanciado el modelo que será reentrenado, parametrizados los argumentos para ello, se toma la data y se realiza el reentrenamiento del modelo.
 	
-Ahora solo queda por aplicar modelo que reentrenamos con el dataset de **entrenamiento**, hacer la predicción, y la evaluación de las predicciones. Este procedimiento se encuentra definido en el [manual de fine-tuning](https://huggingface.co/transformers/v3.5.1/training.html) que tiene Hugging Face disponible. 
+Se aplica modelo que reentrenamos con el dataset de **entrenamiento**, hacer la predicción, se evalúan  las predicciones y se encuentra los siguientes resultados  en el dataset de prueba
+	
+![](https://github.com/dfbenavidesr/Module-VI-Team-Data-Science-Project/blob/fb70f3fc16b5cb36f518b6e9778556b917faa956/docs/modeling/Accuray.jpg)	
+
 
 ##	Solution Architecture
 <Architecture of the solution, describe clearly whether this was actually implemented or a proposed architecture. Include diagram and relevant details for reproducing similar architecture. Include details of why this architecture was chosen versus other architectures that were considered, if relevant\>
 	
 La arquitectura del modelo está referenciada el mismo proviene del modelo preentrenado [_'distilbert-base-uncased'_](https://huggingface.co/distilbert-base-uncased?text=Paris+is+the+%5BMASK%5D+of+France.)
 	
-	
-![]((https://github.com/dfbenavidesr/Module-VI-Team-Data-Science-Project/blob/fb70f3fc16b5cb36f518b6e9778556b917faa956/docs/modeling/Accuray.jpg))
 
-##	Benefits
+##	Customer Benefit
 	
-###	Company Benefit (internal only. Double check if you want to share this with your customer)
-<What did our company gain from this engagement? ROI, revenue,  etc\>
-
-###	Customer Benefit
 What is the benefit (ROI, savings, productivity gains etc)  for the customer? If just POC, what is estimated ROI? If exact metrics are not available, why does it have impact for the customer?\>
+	
+El beneficio corresponde en la solución a un problema de poder desechar información de manera ahutomática, lo cual supone un ahorro de tiempo en cada uno de los usuarios al no tener que revisar información sin importancia. 
 
 ##	Learnings
 
-### 	Project Execution
-<Learnings around the customer engagement process\>
+
 
 ### Data science / Engineering
 <Learnings related to data science/engineering, tips/tricks, etc\>
 
+Este ejercicio  en lo personal ha sido un reto inmenso. Se trata de la implementación de las técnicas enseñadas a lo largo del tercer módulo del [**Diplomado Avanzado de  Machine Learning and Data Science**](https://ingenieria.bogota.unal.edu.co/uec/?p=10947)  de la Facultad de Ingeniería de la Universidad Nacional de Colombia. Las cuales en el momento no he podido interiorizar en su totalidad por la complejidad de las mismas. Sin embargo, estoy convencido que las dominaré y  quedará este repositorio como  muestra  del trabajo realizado y para luego poder evaluar mi avance. 
 
 ### Domain
 <Learnings around the business domain, \>
+	
+Se destaca como técnicas adquiridas, la introducción a herramientas como Poetry para el empaquetamiento de los desarrollos, MlFlow como herramienta impostantísima de la gestión de la proyectos de ciencia de datos 
 
-### Product
-<Learnings around the products and services utilized in the solution \>
 
 ###	What's unique about this project, specific challenges
 <Specific issues or setup, unique things, specific challenges that had to be addressed during the engagement and how that was accomplished\>
 
+Los retos asumidos en este proyecto fueron enormes: En lo personal he tenido demasiado interés pero no bastos conocimientos en python y sus diferentes librerías así que constantemente tuve problemas de base. En segundo lugar, no conocía el protocolo Git y no había trabajado en él así que también fue un trabajo arduo. Lo tercero es que no había  tenido cercanía a las herramientas de gestión de proyectos de ciencia de datos y poco adentramiento en el tema del despliegue de modelos. 
+	
+Aún cuando poseo todas las falencias mencionadas también sé que la manera como se realizaron  las clases por parte de los Docentes son insumo suficiente para poder con tiempo trabajarlas  un tema a la vez y  aprender la técnica como se debe. 
+	
 ##	Links
 <Links to published case studies, etc.; Link to git repository where all code sits\>
+	
+El link donde reposa el modelo que se describe en este documento es: 
+	
+
 
 ##	Next Steps
  
