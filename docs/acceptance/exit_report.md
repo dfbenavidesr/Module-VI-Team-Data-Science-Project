@@ -70,10 +70,6 @@ Ahora solo queda por aplicar modelo que reentrenamos con el dataset de **entrena
 La arquitectura del modelo está referenciada el mismo proviene del modelo preentrenado [_'distilbert-base-uncased'_](https://huggingface.co/distilbert-base-uncased?text=Paris+is+the+%5BMASK%5D+of+France.)
 	
 	
-	docs/modeling/Accuray.jpg
-	docs/modeling/Accuray.jpg
-	
-	
 ![]((https://github.com/dfbenavidesr/Module-VI-Team-Data-Science-Project/blob/fb70f3fc16b5cb36f518b6e9778556b917faa956/docs/modeling/Accuray.jpg))
 
 ##	Benefits
